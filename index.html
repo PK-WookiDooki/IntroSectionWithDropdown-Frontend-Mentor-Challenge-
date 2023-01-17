@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/custom.css">
+  <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+</head>
+<body>
+
+
+  <div class="container">
+    <nav class="navbar">
+
+      <div class="navbar-brand">
+        <a href="#" class="">snap</a>
+      </div>
+  
+      <a href="#" id="nav-toggle">
+        <img src="./images/icon-menu.svg" alt="">
+      </a>
+  
+      <div class="navbar-nav" id="navbar-nav">
+        <a href="#" id="closeBtn">
+          <img src="./images/icon-close-menu.svg" alt="">
+        </a >
+        <div class="nav">
+          <div class="nav-item">
+            <a href="#" class="nav-link" id="fDropdownBtn">
+              Features
+              <!-- <i class="fa fa-sort-down"></i> -->
+              <img src="./images/icon-arrow-down.svg" alt="" class="arrowDown">
+              <img src="./images/icon-arrow-up.svg" alt="" class="arrowUp">
+            </a> 
+            <ul id="fDMenu" class="dDMenu">
+              <li class="dropdown-item">
+                <a href="#">
+                  <img src="./images/icon-todo.svg" alt="">
+                  Todo List
+                </a>
+              </li>
+              <li class="dropdown-item">
+                <a href="#">
+                  <img src="./images/icon-calendar.svg" alt="">
+                  Calendar
+                </a>
+              </li>
+              <li class="dropdown-item">
+                <a href="#">
+                  <img src="./images/icon-reminders.svg" alt="">      
+                  Reminders   
+                </a>
+              </li>
+              <li class="dropdown-item">
+                <a href="#">
+                  <img src="./images/icon-planning.svg" alt="">
+                  Planning
+                </a>
+              </li>
+            </ul>    
+          </div>
+          <div class="nav-item">
+            <a href="#" class="nav-link" id="cDropdownBtn">
+              Company
+              <!-- <i class="fa fa-sort-down"></i> -->
+              <img src="./images/icon-arrow-down.svg" alt="" class="arrowDown">
+              <img src="./images/icon-arrow-up.svg" alt="" class="arrowUp">
+            </a>
+            <ul class="dDMenu" id="cDMenu">
+              <li class="dropdown-item">
+                <a href="#">
+                  History
+                </a>
+              </li>
+              <li class="dropdown-item">
+                <a href="#">
+                  Our Team
+                </a>
+              </li>
+              <li class="dropdown-item">
+                <a href="#">
+                  Blog
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="nav-item">
+            <a href="#" class="nav-link">
+              Careers
+            </a>
+          </div>
+          <div class="nav-item">
+            <a href="#" class="nav-link">
+              About
+            </a>
+          </div>
+        </div>
+        <div class="logInbox">
+          <a href="#" class="logInbtn">
+            Login
+          </a>
+    
+          <a href="#" class="logInbtn">
+            Register
+          </a>
+        </div>
+      </div> 
+    </nav>
+  
+    <main>
+      <section>
+  
+        <div class="textBox">
+          <div class="text">
+            <h3 class="header"><span>Make</span> remote work</h3>
+            <p>Get your team in sync, no matter your location. Streaming process, create team rituals and watch productivity soar.</p>
+    
+            <a href="#" class="btn">Learn more</a>
+          </div>
+  
+          <div class="logoBox">
+            <img src="./images/client-databiz.svg" alt="">
+            <img src="./images/client-audiophile.svg" alt="">
+            <img src="./images/client-meet.svg" alt="">
+            <img src="./images/client-maker.svg" alt="">
+          </div>
+        </div>
+  
+        <div class="image">
+          <img src="./images/image-hero-desktop.png" alt="" srcset="">
+          <img src="./images/image-hero-mobile.png" alt="">
+        </div>
+      </section>
+    </main>
+
+    <div class="attribution">
+      <span>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      </span> 
+      <span>
+        Coded by <a href="#">Wooki Dooki</a>.
+      </span>
+    </div>
+  </div>
+  
+  <div id="background"></div>
+
+  
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
